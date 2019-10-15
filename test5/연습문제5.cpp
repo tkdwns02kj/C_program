@@ -8,8 +8,8 @@ int main(void)
 	double b = 0;
 	double c = 0;
 
+	printf("¼·¾¾¿Âµµ¸¦ È­¾¾¿Âµµ·Î ¹Ù²ß´Ï´Ù.\n ");
 	scanf_s("%lf, %lf, %lf", &a, &b, &c);
-	printf("%0.4lf\n%0.4lf\n%0.4lf\n", a, b, c);
 
 	double d = 0;
 	d = (9.0 / 5.0) * a + 32.0;
